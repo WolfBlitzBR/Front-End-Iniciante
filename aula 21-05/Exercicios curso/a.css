@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #b2b2b2; 
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+    width: 100%;
+    max-width: 600px; 
+}
+
+.titulo-pagina {
+    color: #000000;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #111; 
+    border-radius: 4px; 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 16px; 
+}
+
+
+.card h2 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 16px;
+    color: #b2b2b2; 
+}
+
+.destaque-amarelo {
+    color: #febe01; 
+}
+
+.destaque-subtil {
+    color: #febe01; 
+    font-weight: bold;
+}
+
+.btn-comprar {
+    background-color: #febe01; 
+    color: #332200; 
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-comprar:hover {
+    filter: brightness(0.9);
+}
